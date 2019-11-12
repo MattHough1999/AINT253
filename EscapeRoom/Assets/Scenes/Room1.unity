@@ -202,6 +202,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.5422043
       objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: b5b0ef4d2cb947e478851937e7788641,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 28df697b22be3ed4d8803fccf811fa88, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5b0ef4d2cb947e478851937e7788641, type: 3}
 --- !u!1 &487963093
@@ -904,6 +909,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.5422043
       objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: b5b0ef4d2cb947e478851937e7788641,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a9e0c68a9d272a44c87e4558b7e6c067, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5b0ef4d2cb947e478851937e7788641, type: 3}
 --- !u!1001 &1827272287
@@ -1072,6 +1082,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.5422043
       objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: b5b0ef4d2cb947e478851937e7788641,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4fbfe8819a8476845bb794c3a9d57aec, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5b0ef4d2cb947e478851937e7788641, type: 3}
 --- !u!1001 &1995230075
@@ -1156,6 +1171,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.5422043
       objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: b5b0ef4d2cb947e478851937e7788641,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: de9e4f6e3cd305e48ad31f01ab024375, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5b0ef4d2cb947e478851937e7788641, type: 3}
 --- !u!1 &2039213339
