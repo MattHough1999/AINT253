@@ -20,19 +20,19 @@ public class MovementTarget : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            transform.Translate(Camera.main.transform.forward * forwardSpeed);
+            transform.Translate(transform.forward  * forwardSpeed);
         }
         if (Input.GetKey(KeyCode.S))
         {
-            transform.Translate(Camera.main.transform.forward * -ReverseSpeed);
+            transform.Translate(transform.forward * -ReverseSpeed);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            transform.Translate(Camera.main.transform.right * RightSpeed);
+            transform.Translate(transform.right * RightSpeed);
         }
         if (Input.GetKey(KeyCode.A))
         {
-            transform.Translate(Camera.main.transform.right * -LeftSpeed);
+            transform.Translate(transform.right * -LeftSpeed);
         }
         
         
