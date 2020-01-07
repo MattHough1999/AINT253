@@ -7,15 +7,9 @@ public class podiumPush : MonoBehaviour
     public GameObject player;
     [SerializeField] KeyCode key = KeyCode.R;
     char keyChar;
-    // Start is called before the first frame update
-    void Start()
+    public void pushed()
     {
         keyChar = System.Convert.ToChar(key);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
 
         if (Input.GetKeyDown(key)) 
         {

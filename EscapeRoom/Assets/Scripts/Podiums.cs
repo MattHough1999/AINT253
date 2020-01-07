@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Podiums : MonoBehaviour
 {
-    private string order = "borg"; //resistance is futile. join the collective.
-    private string pushOrder = "bbbb";
+    private string order = "borg"; 
+    private string pushOrder = "xxxx";
     
     // Start is called before the first frame update
     void Start()
@@ -18,15 +18,10 @@ public class Podiums : MonoBehaviour
     {
         if(pushOrder == order) 
         {
-            openDoor();        
+            GetComponentInParent<PuzzleManager>().changeState();
         }
-        
-      //this is where matt was a nonce
     }
-    public void openDoor() 
-    {
-        
-    }
+    
     public string SetPush(char pushed) 
     { 
         

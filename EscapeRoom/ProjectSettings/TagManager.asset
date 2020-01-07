@@ -8,6 +8,8 @@ TagManager:
   - Green
   - Blue
   - Orange
+  - Cube
+  - Podium
   layers:
   - Default
   - TransparentFX

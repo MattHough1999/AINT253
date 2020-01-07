@@ -22,9 +22,19 @@ public class Player : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit, 3f))
         {
+            //Debug.Log(hit.transform.name);
             if (Input.GetKey(KeyCode.E))
             {
-                
+                if(hit.transform.tag == "Cube") 
+                {
+                    hit.transform.GetComponent<Cube>().pickup();
+                    //hit.transform.GetComponent<Cubes>().Cubed();
+                }
+                else if(hit.transform.tag == "Podium") 
+                {
+                    hit.transform.GetComponent<podiumPush>().pushed();
+                }
+                //if(TryGetComponent<>)
             }
         }
     }
