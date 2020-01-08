@@ -10,6 +10,9 @@ TagManager:
   - Orange
   - Cube
   - Podium
+  - Button
+  - Clue
+  - Switch
   layers:
   - Default
   - TransparentFX

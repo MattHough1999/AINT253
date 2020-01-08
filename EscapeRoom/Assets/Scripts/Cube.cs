@@ -8,6 +8,6 @@ public class Cube : MonoBehaviour
     public void pickup() 
     {
         GetComponentInParent<Cubes>().active++;
-        Destroy(this);
+        Destroy(gameObject);
     }
 }

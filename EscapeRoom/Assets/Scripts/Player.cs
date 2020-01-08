@@ -1,13 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
+    //public Text Text;
     // Start is called before the first frame update
     void Start()
     {
-        
+        //Text.text = "";
     }
 
     // Update is called once per frame
@@ -22,8 +24,9 @@ public class Player : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit, 3f))
         {
+            //Text.text = "E";
             //Debug.Log(hit.transform.name);
-            if (Input.GetKey(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.E))
             {
                 if(hit.transform.tag == "Cube") 
                 {
@@ -33,6 +36,14 @@ public class Player : MonoBehaviour
                 else if(hit.transform.tag == "Podium") 
                 {
                     hit.transform.GetComponent<podiumPush>().pushed();
+                }
+                else if (hit.transform.tag == "Button")
+                {
+                    hit.transform.GetComponent<Button>().pushed();
+                }
+                else if (hit.transform.tag == "Switch")
+                {
+                    hit.transform.GetComponent<Switch>().pushed();
                 }
                 //if(TryGetComponent<>)
             }

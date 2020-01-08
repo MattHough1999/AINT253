@@ -19,6 +19,7 @@ public class Podiums : MonoBehaviour
         if(pushOrder == order) 
         {
             GetComponentInParent<PuzzleManager>().changeState();
+            
         }
     }
     
@@ -28,6 +29,8 @@ public class Podiums : MonoBehaviour
         pushOrder = pushed.ToString() + pushOrder;
 
         pushOrder = pushOrder.Substring(0, 4);
+        Debug.Log(pushOrder);
         return pushOrder;
+
     }
 }
